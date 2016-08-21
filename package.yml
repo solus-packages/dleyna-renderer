@@ -1,0 +1,22 @@
+name       : dleyna-renderer
+version    : 0.5.0
+release    : 1
+source     :
+    - https://github.com/01org/dleyna-renderer/archive/v0.5.0.tar.gz : b33c66d465a37a48db010a9deb663275390fab8563165473c30d2ba197010ae4
+license    : LGPL-2.1
+component  : programming
+summary    : library for implementing services that allow clients to discover and manipulate Digital Media Renderers.
+description: |
+    Library for implementing services that allow clients to discover and manipulate Digital Media Renderers.
+builddeps  :
+    - pkgconfig(dleyna-core-1.0)
+    - pkgconfig(gssdp-1.0)
+    - pkgconfig(gupnp-1.0)
+    - pkgconfig(gupnp-av-1.0)
+    - pkgconfig(gupnp-dlna-2.0)
+setup      : |
+    %autogen
+build      : |
+    %make
+install    : |
+    %make_install
