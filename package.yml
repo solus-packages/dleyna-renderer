@@ -1,10 +1,10 @@
 name       : dleyna-renderer
-version    : 0.5.0
-release    : 1
+version    : 0.6.0
+release    : 2
 source     :
-    - https://github.com/01org/dleyna-renderer/archive/v0.5.0.tar.gz : b33c66d465a37a48db010a9deb663275390fab8563165473c30d2ba197010ae4
+    - https://01.org/sites/default/files/downloads/dleyna/dleyna-renderer-0.6.0.tar_2.gz : f606ac1186e7f3ce792606604fc3fbe2d9ec7001dee98ba77f025918ea89f7e1
 license    : LGPL-2.1
-component  : programming
+component  : programming.library
 summary    : library for implementing services that allow clients to discover and manipulate Digital Media Renderers.
 description: |
     Library for implementing services that allow clients to discover and manipulate Digital Media Renderers.
